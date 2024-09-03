@@ -1,4 +1,4 @@
-![explore design](https://github.com/user-attachments/assets/a30a07ed-fd62-4805-8232-264988b72cae)# Dribbble Clone Project
+# Dribbble Clone Project
 
 This project is a clone of the Dribbble website, developed to replicate its core functionalities and user interface. It provides a platform for users to explore a variety of creative works, search for specific designs, and view detailed profiles of creators. The project focuses on delivering a responsive design and dynamic content rendering to offer a professional and interactive browsing experience.
 
