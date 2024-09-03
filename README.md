@@ -1,10 +1,10 @@
-# Dribbble Clone Project
+![explore design](https://github.com/user-attachments/assets/a30a07ed-fd62-4805-8232-264988b72cae)# Dribbble Clone Project
 
 This project is a clone of the Dribbble website, developed to replicate its core functionalities and user interface. It provides a platform for users to explore a variety of creative works, search for specific designs, and view detailed profiles of creators. The project focuses on delivering a responsive design and dynamic content rendering to offer a professional and interactive browsing experience.
 
 ## Project Link
 
-Check out the live project here: [Dribbble Clone](https://github.com/yourusername/dribbble-clone)
+Check out the live project here: [Dribbble Clone]([https://github.com/yourusername/dribbble-clone](https://linked-in-luminaries-095-dribbble.vercel.app/))
 
 ## Table of Contents
 
@@ -30,17 +30,14 @@ Check out the live project here: [Dribbble Clone](https://github.com/yourusernam
 Here are some screenshots of the Dribbble clone:
 
 - **Landing Page**:
-  ![Landing Page](link-to-screenshot)
+  ![Landing Page](https://github.com/user-attachments/assets/b7dc70a6-40df-44fa-84c3-a14ead0c4f94)
 
 - **Login and Signup Page**:
-  ![Login and Signup Page](link-to-screenshot)
+  ![Login Page](https://github.com/user-attachments/assets/fa441f7a-b370-47d3-8119-87e0cc76bdd0)
+  ![Signup Page](https://github.com/user-attachments/assets/123a5022-658b-4f19-8b78-8aae8dd3b014)
 
 - **Explore Designs**:
-  ![Explore Designs](link-to-screenshot)
-
-- **Creator Profile**:
-  ![Creator Profile](link-to-screenshot)
-
+  ![Explore Designs](https://github.com/user-attachments/assets/813f23bb-fe3b-47b6-b683-2e513f27431f)
 
 ## Tech Stack
 
