@@ -30,14 +30,16 @@ Check out the live project here: [Dribbble Clone]([https://github.com/youruserna
 Here are some screenshots of the Dribbble clone:
 
 - **Landing Page**:
-  ![Landing Page](https://github.com/user-attachments/assets/b7dc70a6-40df-44fa-84c3-a14ead0c4f94)
+  ![Landing Page](https://github.com/user-attachments/assets/15c3b254-7b51-4854-9c48-cf64d9785b0f)
+
 
 - **Login and Signup Page**:
-  ![Login Page](https://github.com/user-attachments/assets/fa441f7a-b370-47d3-8119-87e0cc76bdd0)
-  ![Signup Page](https://github.com/user-attachments/assets/123a5022-658b-4f19-8b78-8aae8dd3b014)
+  ![Login Page](https://github.com/user-attachments/assets/2ec6f645-7ddb-4988-8076-27825c8652d4)
+
+  ![Signup Page](https://github.com/user-attachments/assets/6fdef136-4424-4ea9-88cc-689c6d68da3e)
 
 - **Explore Designs**:
-  ![Explore Designs](https://github.com/user-attachments/assets/813f23bb-fe3b-47b6-b683-2e513f27431f)
+  ![Explore Designs](https://github.com/user-attachments/assets/f8bb4139-a3df-4267-8828-7afe0ce3e375)
 
 ## Tech Stack
 
@@ -78,6 +80,6 @@ To get a local copy up and running, follow these steps:
 
 ## Contributors
 
-- [Avani Lodhi](https://github.com/yourusername) 
-
+- [Avani Lodhi](https://github.com/avanilodhi) 
+- [Neelesh Sharma](https://github.com/sneelesh182)
 
