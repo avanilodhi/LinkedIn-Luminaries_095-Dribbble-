@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/414ae88f0d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- avani  -->
+    <div id="navbar-container">
+        <nav id="navbar">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Find designers <i class="fa-solid fa-angle-down" style="color: #000000;"></i></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Designer search</a>
+                        <a href="#">Post a job</a>  
+                    </div>
+                </li>
+                <li><a href="#">Inspiration</a></li>
+                <li class="dropdown">
+                    <a href="#">Courses <i class="fa-solid fa-angle-down" style="color: #000000;"></i></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">UX Diploma</a>
+                        <a href="#">UI Certificate</a>
+                        <a href="#">Live interactive workshops</a>
+                    </div>
+                </li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Go Pro</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="search-container">
+                    <input type="text" id="search"  placeholder="Search..."> 
+                    <i class="fa-solid fa-magnifying-glass search-icon" style="color: #000000;"></i>
+                    
+                </div>
+                <button id="login">Log in</button>
+                <button id="signup">Sign up</button>
+            </div>
+        </nav>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            
+            <h1>Discover the world’s top <br>designers & creatives</h1>
+            <p>Dribbble is the leading destination to find & showcase creative work and<br>home to the world's best design professionals.</p>
+            
+        </div>
+    </div>
+
+
+     <!-- avani end  -->
+
+    <div id="selectContainer">
+    <select id="selectTag">
+        <option value="">Sort By</option>
+        <option value="name">By Name</option>
+        <option value="likeCount">By Likes</option>
+        <option value="watchCount">By Watchers</option>
+    </select>
+    <input id="go" type="text" placeholder="Search">
+</div>
+    <div id="ncontainer2"></div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+</body>
+<script src="browse.js"></script>
+</html>

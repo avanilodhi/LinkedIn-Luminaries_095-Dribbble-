@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script defer src="signup_usingmail.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="ava-contain-left">
+            <video class="background-video" src="https://cdn.dribbble.com/uploads/48292/original/30fd1f7b63806eff4db0d4276eb1ac45.mp4?1689187515" autoplay muted loop></video>
+            <!-- <img id="logo" src="https://cdn.dribbble.com/uploads/56213/original/70623902a018ec5d99d2a8a3bf7145ca.png?1717712071" alt="Dribbble Logo"> -->
+        </div>
+        <div class="ava-contain-right">
+            <div class="login-content">
+                <button id="back-button" class="back-button">&#x2190;</button>
+                <h1>Sign up to Dribbble</h1>
+                <form>
+                    <div class="input-group">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="6+ characters">
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms" name="terms">
+                        <label for="terms">I agree with Dribbble's <a href="#">Terms of Service</a>, <a href="#">Privacy Policy</a>, and default <a href="#">Notification Settings</a>.</label>
+                    </div>
+                    <button type="submit" id="create-account" class="signin">Create Account</button>
+                </form>
+                <p>Already have an account? <a href="#">Sign In</a></p>
+                <div class="recaptcha-note">
+                    <p>This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

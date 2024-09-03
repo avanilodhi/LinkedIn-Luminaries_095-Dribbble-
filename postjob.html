@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Job</title>
+    <link rel="stylesheet" href="postjob.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div id="navbar-container">
+        <nav id="navbar">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Find designers <i class="fa-solid fa-angle-down" style="color: #000000;"></i></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Designer search</a>
+                        <a href="#">Post a job</a>  
+                    </div>
+                </li>
+                <li><a href="#">Inspiration</a></li>
+                <li class="dropdown">
+                    <a href="#">Courses <i class="fa-solid fa-angle-down" style="color: #000000;"></i></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">UX Diploma</a>
+                        <a href="#">UI Certificate</a>
+                        <a href="#">Live interactive workshops</a>
+                    </div>
+                </li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Go Pro</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="search-container">
+                    <input type="text" id="search"  placeholder="Search..."> 
+                    <i class="fa-solid fa-magnifying-glass search-icon" style="color: #000000;"></i>
+                    
+                </div>
+                <button id="login">Log in</button>
+                <button id="signup">Sign up</button>
+            </div>
+        </nav>
+    </div>
+    <div class="header-container">
+        <h1>Post a job on Dribbble</h1>
+        <p>The #1 job board for hiring designers and creative professionals.</p>
+    </div>
+
+    <div id="anicontent">
+        
+        <div class="aniform-container">
+            <form>
+                <h2>Tell us about your role</h2>
+                <div class="aniform-group">
+                    <label for="job-title">Job title <span style="color: red;">*</span></label>
+                    <input type="text" id="job-title" placeholder="e.g. Senior Product Designer">
+                </div>
+                <div class="aniform-group">
+                    <label for="job-description">Add your job description <span style="color: red;">*</span></label>
+                    <textarea id="job-description" placeholder="e.g. We're looking for a full-time senior product designer with 6-8 years experience in product design and leadership. This position is located in New York City."></textarea>
+                </div>
+                <div class="aniform-group">
+                    <label for="job-location">Job location</label>
+                    <input type="text" id="job-location" placeholder="e.g. New York City or San Francisco">
+                </div>
+                <div class="aniform-group">
+                    <label for="workplace-type">Workplace type <span style="color: red;">*</span></label>
+                    <select id="workplace-type">
+                        <option value="">Select workplace type</option>
+                        <option value="remote">Remote</option>
+                        <option value="onsite">Onsite</option>
+                        <option value="hybrid">Hybrid</option>
+                    </select>
+                </div>
+                <div class="aniform-group">
+                    <label for="designer-type">What type of designer are you looking for? <span style="color: red;">*</span></label>
+                    <select id="designer-type">
+                        <option value="">Select designer type</option>
+                        <option value="graphic">Graphic Designer</option>
+                        <option value="uiux">UI/UX Designer</option>
+                        <option value="product">Product Designer</option>
+                    </select>
+                </div>
+                <div class="aniform-group">
+                    <label for="employment-type">Employment type <span style="color: red;">*</span></label>
+                    <select id="employment-type">
+                        <option value="">Select employment type</option>
+                        <option value="full-time">Full-time</option>
+                        <option value="part-time">Part-time</option>
+                        <option value="contract">Contract</option>
+                    </select>
+                </div>
+                <div class="aniform-group">
+                    <label for="application-link">Where can people apply? <span style="color: red;">*</span></label>
+                    <input type="text" id="application-link" placeholder="e.g. https://greenhouse.io/f73jfwh">
+                </div>
+                <!-- <h2>Company information</h2> -->
+                <div class="aniform-group">
+                    <label for="company-name">What's your company name? <span style="color: red;">*</span></label>
+                    <input type="text" id="company-name" placeholder="e.g. ABC Enterprises">
+                </div>
+                <div class="aniform-group">
+                    <label for="company-logo">Your company logo</label>
+                    <input type="file" id="company-logo">
+                    <p>Recommended dimensions: 144x144 px</p>
+                </div>
+                <div class="aniform-group">
+                    <label for="company-website">Your company website <span style="color: red;">*</span></label>
+                    <input type="text" id="company-website" placeholder="e.g. https://domain.com">
+                </div>
+                <div class="aniform-buttons">
+                    <button class="anicancel-button">Cancel</button>
+                    <button class="anisubmit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Kranti Part Start -->
+
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14791779/file/still-ff15988e450b86555de0e5a87abb70c5.png?format=webp&resize=400x300&vertical=center" alt="Image 1">
+            <span>Animation</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14676077/file/original-4087c2e2085bcc0327b534615a0ec3c0.jpg?format=webp&resize=400x300&vertical=center" alt="Image 2">
+            <span>Mobile</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14921096/file/original-86fede1d821af0ec017626d8aaba6a29.jpg?format=webp&resize=400x300&vertical=center" alt="Image 3">
+            <span>Product Design</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14836748/file/original-fa4f44eb0b61948d66fb987c295a98be.png?format=webp&resize=400x300&vertical=center" alt="Image 4">
+            <span>Typography</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14834156/file/original-f19b5701ea5fc4046464114a94efbb3f.png?format=webp&resize=400x300&vertical=center" alt="Image 1">
+            <span>Web Design</span>
+            </div> 
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14737039/file/original-f395c72718d0fd71cae7f0120da1662c.png?format=webp&resize=400x300&vertical=center" alt="Image 2">
+            <span>Branding</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14900990/file/original-e928458ae7b816557a3a81f60783f47e.png?format=webp&resize=400x300&vertical=center" alt="Image 3">
+            <span>Illustration</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14886335/file/original-83a406564e8dfcf83f54b784d00760bf.png?format=webp&resize=400x300&vertical=center" alt="Image 4">
+            <span>Print</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14791779/file/still-ff15988e450b86555de0e5a87abb70c5.png?format=webp&resize=400x300&vertical=center" alt="Image 1">
+            <span>Animation</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14676077/file/original-4087c2e2085bcc0327b534615a0ec3c0.jpg?format=webp&resize=400x300&vertical=center" alt="Image 2">
+            <span>Mobile</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14921096/file/original-86fede1d821af0ec017626d8aaba6a29.jpg?format=webp&resize=400x300&vertical=center" alt="Image 3">
+            <span>Product Design</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14836748/file/original-fa4f44eb0b61948d66fb987c295a98be.png?format=webp&resize=400x300&vertical=center" alt="Image 4">
+            <span>Typography</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14834156/file/original-f19b5701ea5fc4046464114a94efbb3f.png?format=webp&resize=400x300&vertical=center" alt="Image 1">
+            <span>Web Design</span>
+            </div> 
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14737039/file/original-f395c72718d0fd71cae7f0120da1662c.png?format=webp&resize=400x300&vertical=center" alt="Image 2">
+            <span>Branding</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14900990/file/original-e928458ae7b816557a3a81f60783f47e.png?format=webp&resize=400x300&vertical=center" alt="Image 3">
+            <span>Illustration</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14886335/file/original-83a406564e8dfcf83f54b784d00760bf.png?format=webp&resize=400x300&vertical=center" alt="Image 4">
+            <span>Print</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14791779/file/still-ff15988e450b86555de0e5a87abb70c5.png?format=webp&resize=400x300&vertical=center" alt="Image 1">
+            <span>Animation</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14676077/file/original-4087c2e2085bcc0327b534615a0ec3c0.jpg?format=webp&resize=400x300&vertical=center" alt="Image 2">
+            <span>Mobile</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14921096/file/original-86fede1d821af0ec017626d8aaba6a29.jpg?format=webp&resize=400x300&vertical=center" alt="Image 3">
+            <span>Product Design</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14836748/file/original-fa4f44eb0b61948d66fb987c295a98be.png?format=webp&resize=400x300&vertical=center" alt="Image 4">
+            <span>Typography</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14834156/file/original-f19b5701ea5fc4046464114a94efbb3f.png?format=webp&resize=400x300&vertical=center" alt="Image 1">
+            <span>Web Design</span>
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14737039/file/original-f395c72718d0fd71cae7f0120da1662c.png?format=webp&resize=400x300&vertical=center" alt="Image 2">
+            <span>Branding</span>  
+            </div>          
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14900990/file/original-e928458ae7b816557a3a81f60783f47e.png?format=webp&resize=400x300&vertical=center" alt="Image 3">
+            <span>Illustration</span> 
+            </div>
+            <div class="slide"><img src="https://cdn.dribbble.com/userupload/14886335/file/original-83a406564e8dfcf83f54b784d00760bf.png?format=webp&resize=400x300&vertical=center" alt="Image 4">
+            <span>Print</span> 
+            </div>
+        </div>
+    </div>
+    <Footer>
+        <div id="kdribble">
+        <div id="klogo">
+            <img src="./Project images/Project logo.png" alt="">
+        </div>
+        <div id="kdesign">
+            <a href="#">For designers</a>
+            <a href="#">Hire talent</a>
+            <a href="#">Inspiration</a>
+            <a href="#">Advertising</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#" id="ksupportpage">Support</a>
+        </div>
+        <div id="kicons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+        </div>
+    </div>
+    <div id="kterms">
+        <div id="kprivacy">
+            <a>© 2024 Dribbble</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookies</a>
+        </div>
+        <div id="kjobs">
+            <a href="#">Jobs</a>
+            <a href="#">Designers</a>
+            <a href="#">Freelancers</a>
+            <a href="#">Tags</a>
+            <a href="#">Places</a>
+            <a href="#">Resources</a>
+        </div>
+    </div>
+    </Footer>
+
+<!-- Kranti Part End -->
+
+    <script src="script.js"></script>
+    <script src="postjob.js"></script>
+</body>
+</html>
