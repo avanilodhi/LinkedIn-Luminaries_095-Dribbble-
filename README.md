@@ -58,13 +58,13 @@ To get a local copy up and running, follow these steps:
 
     ```bash
     git clone - https://github.com/sneelesh182/LinkedIn-Luminaries_095.git
-    cd dribbble-clone
+    cd LinkedIn-Luminaries_095-Dribbble-
     ```
 
 2. Install dependencies for the frontend:
 
     ```bash
-    cd frontend
+    cd LinkedIn-Luminaries_095-Dribbble-
     npm install
     ```
 
@@ -73,7 +73,7 @@ To get a local copy up and running, follow these steps:
 1. Run the frontend:
 
     ```bash
-    cd frontend
+    cd LinkedIn-Luminaries_095-Dribbble-
     npm start
     ```
 
